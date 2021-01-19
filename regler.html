@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .topBox {
+            background-color: #8cb8ff;
+            height: 85px;
+            align-content: top;
+        }
+        body {
+            margin: 0px;
+        }
+
+        #hjemKnapp {
+            margin: 0;
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            height: 100%;
+            width: 200px;
+            background-color: transparent;
+            border: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #discordKnapp, #twitchKnapp {
+            height: 100%;
+            width: 200px;
+            background-color: transparent;
+            border: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #hjemKnapp:hover, #discordKnapp:hover, #twitchKnapp:hover {
+            background-color: #5796fb;
+        }
+
+        .regelBox {
+            position: relative;
+            background-color: lightgrey;
+            width: 750px;
+            height: 550px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        #reglerChat, #regel1, #regel2, #regel3, #regel4, #regel5 {
+            text-align: center;
+        }
+
+        #regel1, #regel2, #regel3, #regel4, #regel5 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="topBox">
+
+        <a href="home.html"><button id="hjemKnapp">Hjem</button></a>
+        <a href="regler.html"><button id="twitchKnapp">Regler i chat</button></a>
+        <a href="https://www.twitch.tv/rlleaf"><button id="twitchKnapp">Twitch</button></a>
+        <a href="https://discord.gg/nuFbBDsAhZ"><button id="discordKnapp">Discord</button></a>
+    </div>
+
+     <div class="regelBox">  
+        <h1 id="reglerChat">Regler i chat:</h1>
+        <p id="regel1">1. Ikke bann eller skriv upassende meldinger i chat, det kan føre til ban.</p>
+        <p id="regel2">2. Ikke start noe stor greie av noe smått, det skaper bare dårlig stemning.</p>
+        <p id="regel3">3. Ikke spam, da kommer du til å skjenne vreden til nightbot.</p>
+        <p id="regel4">4. Helst ikke snakk dritt i chat elelr i discorden, hvis det er noe du lurer på/noe du vil si, så bare si det i DM.</p>
+        <p id="regel5">5. Ikke spam meg om å få mod/admin. Jo mer du maser, jo mindre sjanse har du for å få mod/admin.</p>
+    </div> 
+
+</body>
+</html>

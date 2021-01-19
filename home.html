@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .topBox {
+            background-color: #8cb8ff;
+            height: 85px;
+            align-content: top;
+        }
+        body {
+            margin: 0px;
+        }
+
+        #hjemKnapp {
+            margin: 0;
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            height: 100%;
+            width: 200px;
+            background-color: transparent;
+            border: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #discordKnapp, #twitchKnapp {
+            height: 100%;
+            width: 200px;
+            background-color: transparent;
+            border: none;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #hjemKnapp:hover, #discordKnapp:hover, #twitchKnapp:hover {
+            background-color: #5796fb;
+        }
+
+        .infoBox {
+            position: relative;
+            background-color: lightgrey;
+            width: 750px;
+            height: 550px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        #infoTxt {
+            text-align: center;
+        }
+
+        #velkommenTekst, #rlleafSign {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="topBox">
+
+        <a href="home.html"><button id="hjemKnapp">Hjem</button></a>
+        <a href="regler.html"><button id="twitchKnapp">Regler i chat</button></a>
+        <a href="https://www.twitch.tv/rlleaf"><button id="twitchKnapp">Twitch</button></a>
+        <a href="https://discord.gg/nuFbBDsAhZ"><button id="discordKnapp">Discord</button></a>
+    </div>
+
+    <div class="infoBox">
+        <h1 id="infoTxt">Velkommen!</h1>
+        <p id="velkommenTekst">
+            Halla, velkommen til min nettside! På denne nettsiden finner du blant annet kanalregler, discord server og twitchen min! Her skal jeg prøve å legge ut litt andre ting etterhvert og piffe den opp litt etterhvert også. 
+        </p>
+        <p id="rlleafSign">
+            - RLleaf
+        </p>
+    </div>
+</body>
+</html>
